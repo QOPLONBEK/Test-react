@@ -1,0 +1,367 @@
+{
+    "id": 1,
+    "name": "Asp.Net viktorina",
+    "description": "Asp.Net Quiz (o'z ichiga veb-forma, mvc, web API va boshqalar)",
+    "answers": [
+        {
+            "id": 1010,
+            "name": "ASP.NET veb-formasi sifatida nomli xususiyatdan foydalanib, HTML chiqishini dastur mantig'idan ajratadi",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Istisno",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Kod orqasida",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Kod-front",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Yuqoridagilardan hech qaysi biri",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "ASP.NET 2.0 da ilovadagi boshqa sahifaga oddiy postbackni yoqish uchun foydalaniladigan xususiyat deyiladi.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Mavzu",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Kod-front",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Sahifalarni oʻzaro joylashtirish",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Yuqoridagilardan hech qaysi biri",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "ASP.NET Web Form klassi sukut bo'yicha qaysi sinfdan meros bo'ladi?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "System.Web.UI.Page",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "System.Web.UI.Form",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "System.Web.GUI.Page",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "System.Web.Form",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "MVC nimani anglatadi?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Modelni ko'rish boshqaruvchisi",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Maksimal virtual nazorat",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Microsoft Visual Core",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Yuqoridagilardan hech qaysi biri",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "Quyidagilardan qaysi biri turdagi quyishni talab EMAS?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Sessiya",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "TempData",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Ma'lumotlarni ko'rish",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "ViewBag",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1015,
+            "name": "Asp.net veb-formasida sahifaning hayot aylanishining to'g'ri tartibi qaysi?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Init, PreRender, Load",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Load, PreRender, Init",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Init, Load, PreRender",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": "Ushbu ma'lumotlar manbasini boshqarish vositalaridan qaysi biri keshlashni amalga oshirmaydi?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "ObjectDataSource",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "LinqDataSource",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "SqlDataSource",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "XmlDataSource",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "Qaysi teg asp:Label nazorati sukut bo'yicha ko'rsatiladi?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "div",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "span",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "body",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "label",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "name": "Foydalanuvchi seansini aniq o'chirish uchun qaysi usuldan foydalanasiz?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Session.Terminate()",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Session.TimeOut()",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Session.Abondon()",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Session.Kill()",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "name": "Quyidagi ob'ektlardan qaysi biri bitta so'rov uchun ma'lumotlarni jonli saqlash uchun ideal?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "HttpContext",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Session",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Cookies",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "SqlServer",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        }
+    ]
+}

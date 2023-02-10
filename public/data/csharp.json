@@ -1,0 +1,379 @@
+{
+    "id": 2,
+    "name": "C# va .Net Framework",
+    "description": "C# va .Net Quiz (C#, .Net Framework, Linq va boshqalarni o'z ichiga oladi)",
+    "config": {
+        "shuffleQuestions": true,
+        "showPager": false,
+        "allowBack": true,
+        "autoMove": true
+    },
+    "questions": [
+        {
+            "id": 1010,
+            "name": "Quyidagi yig'ilishlardan qaysi biri Global Assambleya keshida saqlanishi mumkin?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Shaxsiy yig'ilishlar",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Do'stlar yig'inlari",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Jamoat yig'ilishlari",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Birgalikda yig'ilishlar",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "Quyidagi .NET komponentlaridan qaysi biri foydalanilmagan havolalarni boshqariladigan toʻplamdan olib tashlash uchun ishlatilishi mumkin?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Til infratuzilmasi",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "CLR",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Axlat yig'uvchi",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Sinf yuklovchi",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "CTS",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "Quyidagi utilitalardan qaysi biri boshqariladigan yig'ilishlarni protsessorga xos mahalliy kodga kompilyatsiya qilish uchun ishlatilishi mumkin?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "gacutil",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "ngen",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "axlat qutisi",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "ildasm",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "Quyidagilardan qaysi biri C#.NET da Arifmetik operator EMAS?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "** (Ikki yulduz)",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "+ (Bundan tashqari)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "/ (Bo'lmoq)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "% (Modulo)",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "Quyidagilardan qaysi biri C#.NET da qo'llaniladigan interfeys haqida to'g'ri?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Agar sinf interfeysni qisman amalga oshirsa, u mavhum sinf bo'lishi kerak.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Klass interfeysni qisman amalga oshira olmaydi.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Interfeys statik usullarni o'z ichiga olishi mumkin.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Interfeys statik ma'lumotlarni o'z ichiga olishi mumkin.",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1015,
+            "name": "<strong>o'zgarmas</strong> atamasi satr ob'ektlari atamasida nimani anglatadi?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Biz satrga kiritilgan belgilarni o'zgartirishimiz mumkin",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Biz satrdagi belgilarni o'zgartira olmaymiz",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Biz turli xil taqqoslash, kiritish, qo'shish va hokazo amallarni bajara olmaymiz",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Yuqoridagilardan hech biri",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": "Which of the following is NOT a .NET Exception class?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Istisno",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "StackMemoryException",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "DivideByZeroException",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "InvalidOperationException",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "C#.NET da biz ish vaqtida berilgan istisnoni ushlamasak, uni quyidagilardan qaysi biri ushlaydi?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Kompilyator",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "CLR",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Bog'lovchi",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Operatsion tizim",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "name": "Quyidagilardan qaysi biri delegatlar haqida to'g'ri?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Delegatlar sinfning statik usulini chaqirish uchun ishlatilmaydi.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Delegatlar o'zgaruvchan sonli argumentlarni qabul qiluvchi protseduralarni chaqirish uchun ishlatilmaydi.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Agar ikkita usulning imzolari bir xil bo'lsa, ularni bitta delegat ob'ekti orqali chaqirish mumkin.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Delegatlardan misol funksiyasini chaqirish uchun foydalanish mumkin emas. Delegatlardan misol quyi dasturini chaqirish uchun foydalanish mumkin emas.",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "name": "Quyidagilardan qaysi biri butun sonni bildirmaydi?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Char",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Byte",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Short",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Long",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        }
+    ]
+}

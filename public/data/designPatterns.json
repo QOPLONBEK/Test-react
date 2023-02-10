@@ -1,0 +1,367 @@
+{
+    "id": 3,
+    "name": "Dizayn naqshlari",
+    "description": "Dizayn naqshlari bo'yicha viktorina, shu jumladan qat'iy tamoyillar.",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "SOLID printsipida O ni anglatadi:",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Ob'ektlar va o'zgaruvchilar",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Ochiq-yopiq printsip",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Obyektga yo'naltirilgan dasturlash",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "OutOfMemory istisno",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "Qaysi naqsh ob'ektni yaratish uchun interfeysni belgilaydi, lekin quyi sinflar qaysi sinfni yaratishni hal qilishiga ruxsat bering. Bu instantiatsiyaning quyi sinflardan farqlanishiga imkon beradi.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Zavod usuli",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Mavhum fabrika",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Quruvchi",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Prototip",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "Qaysi namuna ob'ektga qo'shimcha mas'uliyatni dinamik ravishda biriktiradi. U funksionallikni kengaytirish uchun pastki sinfga moslashuvchan muqobil taqdim etadi.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Mas'uliyat zanjiri",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Adapter",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Dekorator",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Kompozit",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "Singleton naqsh (Gang of Fourga ko'ra):",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Yaratuvchi naqsh",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Xulq-atvor namunasi",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Tuzilish namunasi",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Yuqoridagilardan hech biri",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "MVC, MVP va MVVP dasturiy ta'minot arxitekturasining qaysi qatlami bilan bog'liq?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Ma'lumotlarga kirish qatlami",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Biznes/Xizmat darajasi",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Uchinchi tomon kutubxonasi",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Foydalanuvchi interfeysi",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1015,
+            "name": "Qaysi naqsh algoritmlar oilasini belgilaydi, har birini qamrab oladi va ularni bir-birini almashtiradi. Bu algoritmni ishlatadigan mijozlardan mustaqil ravishda farqlanishiga imkon beradi?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Shablon usuli",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Dekorator",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Strategiya",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Mehmon",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": "Qaysi naqsh ob'ektlar orasidagi birdan ko'pga bog'liqlikni belgilaydi, shunda bitta ob'ekt holati o'zgarganda, uning barcha bog'liqlari avtomatik ravishda xabardor qilinadi va yangilanadi?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Mas'uliyat zanjiri",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Kuzatuvchi namunasi",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Voqealar haqida bildirishnoma",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Deligate Pattern",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "Qaysi naqsh sinfning faqat bitta nusxasi borligini ta'minlaydi va unga global kirish nuqtasini beradi?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Yagona sinf fabrikasi",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Singleton",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Proksi",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Pashshavazni",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "name": "Qaysi naqsh yig'ma ob'ekt elementlariga uning asosiy ko'rinishini ochmasdan ketma-ket kirishni ta'minlaydi?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Iterator",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Mehmon",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Kompozit",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Buyruq",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "name": "SOLID tamoyillarida "S" quyidagini anglatadi:",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Yagona javobgarlik",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "sessiya",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "nom": "Kuch",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "SqlServer",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Ko'p tanlov",
+                "isActive": true
+            }
+        }
+    ]
+}

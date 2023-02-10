@@ -1,0 +1,109 @@
+.btn {
+    border-radius: 5px;
+}
+
+.btn + .btn {
+    margin-left: 25px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    background-color: #cadaee;
+    /* cursor: pointer; */
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.option label {
+    cursor: pointer;
+    display: block;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#quiz .options input[type=checkbox] {
+    height: 25px;
+    margin-right: 10px;
+    width: 25px;
+    background-color: #ccffcc;
+    border-radius: 50%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.result-question {
+    background-color: #eee;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Create Quiz Styles */
+.create-quiz .question {
+    text-align: left;
+}
+
+.create-quiz input[type=text] {
+    border: 2px solid #ddd;
+    width: 95%;
+    align-items: center;
+}
+
+.create-quiz .tb-quiz-name {
+    background-color: #ccffcc;
+    text-align: center;
+}
+
+.create-quiz .tb-desc {
+    background-color: #fff;
+}
+
+.create-quiz .options > div {
+    margin-left: 20px;
+}
+
+.create-quiz .options input[type=checkbox] {
+    border: 1px solid #262626;
+    display: inline-block;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+    width: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    h1, .h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    h2, .h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    h3, .h3 {
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .option {
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        padding: 6px;
+        margin-bottom: 20px;
+    }
+}
