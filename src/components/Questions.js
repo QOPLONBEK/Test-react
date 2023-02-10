@@ -51,7 +51,7 @@ class Questions extends Component {
                 <div className="text-center">
                     {this.props.quiz.config.allowBack && <button id="first" className="btn btn-outline-success border-0" onClick={this.props.move}>Birinchidan</button>}
                     {this.props.quiz.config.allowBack && <button id="prev" className="btn btn-outline-success border-0" onClick={this.props.move}>Oldingi</button>}
-                    <button id="next" className="btn btn-success" onClick={this.props.move}>Keyingisi</button>
+                    <button id="next" className="btn btn-outline-success" onClick={this.props.move}>Keyingisi</button>
                     <button id="last" className="btn btn-outline-success border-0" onClick={this.props.move}>Oxirgisi</button>
                 </div>
             </div >
