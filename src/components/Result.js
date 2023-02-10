@@ -6,7 +6,7 @@ function Result(props) {
 
     return (
         <div className="result m-2">
-            <h2 className="text-center m-2 font-weight-normal">Viktorina natijasi</h2>
+            <h2 className="text-center fw-bold m-2 font-weight-normal">Viktorina natijasi</h2>
             {questions.map((q, index) =>
                 <div key={q.id} className={`mb-1 ${q.isCorrect ? 'bg-primary' : 'bg-danger'}`}>
                     <div className="result-question">

@@ -29,7 +29,7 @@ class Questions extends Component {
                 <hr />
                 {questions.map(q =>
                     <div key={q.id}>
-                        <div className="badge badge-info">Savol {this.props.pager.index + 1}ning {this.props.pager.count}.</div>
+                        <div className="badge fw-bold badge-info">Savol {this.props.pager.index + 1}ning {this.props.pager.count}.</div>
                         <h3 className="font-weight-normal">{this.props.pager.index + 1}. <span>{q.name}</span></h3>
                         <div className="row text-left options">
                             {
@@ -51,7 +51,7 @@ class Questions extends Component {
                 <div className="text-center">
                     {this.props.quiz.config.allowBack && <button id="first" className="btn btn-outline-success border-0" onClick={this.props.move}>Birinchidan</button>}
                     {this.props.quiz.config.allowBack && <button id="prev" className="btn btn-outline-success border-0" onClick={this.props.move}>Oldingi</button>}
-                    <button id="next" className="btn btn-success" onClick={this.props.move}>Keyingisi</button>
+                    <button id="next" className="btn btn--outlinesuccess" onClick={this.props.move}>Keyingisi</button>
                     <button id="last" className="btn btn-outline-success border-0" onClick={this.props.move}>Oxirgisi</button>
                 </div>
             </div >
